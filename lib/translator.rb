@@ -36,8 +36,10 @@ def get_japanese_emoticon(path, emoticon)
   english = emoticons[:get_emoticon].keys
   japanese = emoticons[:get_meaning].keys
   
-  equivalent = emoticons[:get_emoticon][emoticon]
-  return equivalent
+  if 
+    equivalent = emoticons[:get_emoticon][emoticon]
+    return equivalent
+    return "Sorry, that emoticon was not found"
   
 end
 
