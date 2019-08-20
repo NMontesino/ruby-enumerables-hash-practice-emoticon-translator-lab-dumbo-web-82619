@@ -30,7 +30,7 @@ def load_library(path)
   
 end
 
-def get_japanese_emoticon(path, emoticon = nil)
+def get_japanese_emoticon(path, emoticon)
   
   emoticons = load_library(path)
   english = emoticons[:get_emoticon].keys
