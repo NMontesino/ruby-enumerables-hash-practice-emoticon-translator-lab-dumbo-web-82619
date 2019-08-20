@@ -24,8 +24,6 @@ def load_library(path)
     get_something[:get_meaning][japanese[i]] = nil
   end
   
-  puts get_something
-  
   # get_something[:get_meaning].keys = japanese
   # puts get_something
   
@@ -33,7 +31,7 @@ def load_library(path)
   #   get_something[:get_meaning][emoticons[emoticon_names[i]][1]] 
   # end
   
-  # return get_something
+  return get_something
   
 end
 
