@@ -10,6 +10,11 @@ def load_library(path)
     get_meaning: {},
     get_emoticon: {}
   }
+  emoticon_names = emoticons.keys
+  
+  emoticon_names.length.times do |i|
+    get_something[:get_meaning][emoticon_names[i]] = emoticons[emoticon_names[i]][1]
+  end
   
   return get_something
   
