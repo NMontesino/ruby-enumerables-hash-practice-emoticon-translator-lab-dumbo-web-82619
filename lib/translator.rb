@@ -22,7 +22,7 @@ def load_library(path)
 end
 
 load_library("./lib/emoticons.yml")
-binding.pry
+#binding.pry
 
 def get_japanese_emoticon
   # code goes here
