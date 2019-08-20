@@ -6,7 +6,7 @@ def load_library(path)
   
   emoticons = YAML.load_file(path)
   japanese = []
-  emoticons.each do |i|
+  emoticons.map do |i|
     japanese.push(emoticons[i][1])
   end
   puts japanese
