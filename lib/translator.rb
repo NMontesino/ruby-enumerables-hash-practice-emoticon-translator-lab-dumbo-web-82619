@@ -4,6 +4,7 @@ def load_library(path)
   require 'yaml'
   emoticons = YAML.load_file(path)
   emoticons[:get_meaning] = []
+  emoticons[:get_emoticon] = []
   emoticons
 end
 
