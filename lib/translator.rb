@@ -33,7 +33,9 @@ end
 def get_japanese_emoticon(path, emoticon)
   
   emoticons = load_library(path)
-  equivalent = emoticons[:get_emoticon][emoticon]
+  english = 
+  
+  emoticons[:get_emoticon][emoticon].find_index
   
 end
 
