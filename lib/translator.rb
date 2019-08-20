@@ -24,6 +24,8 @@ def load_library(path)
     get_something[:get_meaning][japanese[i]]
   end
   
+  puts get_something[:get_meaning]
+  
   # get_something[:get_meaning].keys = japanese
   # puts get_something
   
