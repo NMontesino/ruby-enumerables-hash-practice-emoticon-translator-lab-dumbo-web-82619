@@ -24,6 +24,10 @@ def load_library(path)
     get_something[:get_meaning][japanese[i]] = emoticon_names[i]
   end
   
+  english.length.times do |i|
+    get_something[:get_emoticon][english[i]] = emoticon_names[i]
+  end
+  
   # get_something[:get_meaning].keys = japanese
   # puts get_something
   
