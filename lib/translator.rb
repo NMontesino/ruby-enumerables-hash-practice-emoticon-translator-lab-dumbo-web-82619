@@ -7,6 +7,7 @@ def load_library(path)
   emoticons = YAML.load_file(path)
   emoticon_names = emoticons.keys
   japanese = []
+  english = []
   
   emoticon_names.length.times do |i|
     japanese.push(emoticons[emoticon_names[i]][1])
