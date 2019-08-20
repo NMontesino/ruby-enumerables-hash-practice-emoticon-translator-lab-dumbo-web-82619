@@ -13,7 +13,7 @@ def load_library(path)
   emoticon_names = emoticons.keys
   
   emoticon_names.length.times do |i|
-    get_something[:get_meaning][][i] = 
+    get_something[:get_meaning][emoticons[emoticon_names[i]][1]] 
   end
   
   return get_something
