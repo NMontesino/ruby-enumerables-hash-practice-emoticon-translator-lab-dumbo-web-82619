@@ -5,18 +5,21 @@ def load_library(path)
   require 'yaml'
   
   emoticons = YAML.load_file(path)
-  puts emoticons
-  # japanese = []
-  # emoticons.map do |i|
-  #   japanese.push(emoticons[i][1])
-  # end
-  # puts japanese
+  emoticon_names = emoticons.keys
+  japanese = []
+  
+  emoticon_names.length.times do |i|
+    japanese.push(emoticons[emoticon_names[i]][1])
+  end
+  
+  puts japanese
+  
   # get_something = 
   # {
   #   get_meaning: {},
   #   get_emoticon: {}
   # }
-  # emoticon_names = emoticons.keys
+  # 
   
   # emoticon_names.length.times do |i|
   #   get_something[:get_meaning][emoticons[emoticon_names[i]][1]] 
