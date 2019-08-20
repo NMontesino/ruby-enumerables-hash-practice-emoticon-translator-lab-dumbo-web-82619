@@ -9,6 +9,7 @@ def load_library(path)
   emoticons.each do |i|
     japanese.push(i[1])
   end
+  puts japanese
   # get_something = 
   # {
   #   get_meaning: {},
