@@ -1,5 +1,3 @@
-# require modules here
-require 'pry'
 def load_library(path)
   
   require 'yaml'
@@ -27,13 +25,6 @@ def load_library(path)
   english.length.times do |i|
     get_something[:get_emoticon][english[i]] = japanese[i]
   end
-  
-  # get_something[:get_meaning].keys = japanese
-  # puts get_something
-  
-  # japanese.length.times do |i|
-  #   get_something[:get_meaning][emoticons[emoticon_names[i]][1]] 
-  # end
   
   return get_something
   
