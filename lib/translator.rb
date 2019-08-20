@@ -21,7 +21,7 @@ def load_library(path)
   }
   
   japanese.length.times do |i|
-    get_something[:get_meaning][japanese[i]]
+    get_something[:get_meaning][japanese[i]] = nil
   end
   
   puts get_something
