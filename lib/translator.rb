@@ -37,7 +37,7 @@ def get_japanese_emoticon(path, emoticon)
   japanese = emoticons[:get_meaning].keys
   
   equivalent = emoticons[:get_emoticon][emoticon]
-  print equivalent
+  return equivalent
   
 end
 
