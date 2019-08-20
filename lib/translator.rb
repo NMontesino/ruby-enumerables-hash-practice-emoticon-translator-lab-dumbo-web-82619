@@ -11,9 +11,12 @@ def load_library(path)
   
   emoticon_names.length.times do |i|
     japanese.push(emoticons[emoticon_names[i]][1])
+    english.push(emoticons[emoticon_names[i]][0])
   end
   
   puts japanese
+  puts '---'
+  puts english
   
   # get_something = 
   # {
