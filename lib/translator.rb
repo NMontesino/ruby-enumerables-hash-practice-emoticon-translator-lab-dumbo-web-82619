@@ -30,14 +30,19 @@ def load_library(path)
   
 end
 
-def get_japanese_emoticon(path, emoticon)
+def get_japanese_emoticon(path, emoticon = nil)
   
   emoticons = load_library(path)
-  english = 
+  english = emoticons[:get_emoticon].keys
+  japanese = emoticons[:get_meaning].keys
   
-  emoticons[:get_emoticon][emoticon].find_index
+  puts english
+  
+  #emoticons[:get_emoticon][emoticon].find_index
   
 end
+
+get_japanese_emoticon()
 
 def get_english_meaning
   # code goes here
