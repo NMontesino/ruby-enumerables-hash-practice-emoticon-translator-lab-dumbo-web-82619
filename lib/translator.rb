@@ -36,11 +36,7 @@ def get_japanese_emoticon(path, emoticon = nil)
   english = emoticons[:get_emoticon].keys
   japanese = emoticons[:get_meaning].keys
   
-  p english
-  p '...'
-  p japanese
-  
-  #emoticons[:get_emoticon][emoticon].find_index
+  location = emoticons[:get_emoticon][emoticon].find_index
   
 end
 
