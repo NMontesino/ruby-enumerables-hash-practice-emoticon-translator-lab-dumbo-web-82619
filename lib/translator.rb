@@ -42,7 +42,7 @@ def get_japanese_emoticon(path, emoticon = nil)
   
 end
 
-get_japanese_emoticon()
+get_japanese_emoticon("./lib/emoticons.yml")
 
 def get_english_meaning
   # code goes here
