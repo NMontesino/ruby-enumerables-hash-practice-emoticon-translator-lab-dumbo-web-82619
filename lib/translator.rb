@@ -50,7 +50,7 @@ def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
   english = emoticons[:get_emoticon].keys
   japanese = emoticons[:get_meaning].keys
-  equivalent = emoticons[:get_emoticon][emoticon]
+  equivalent = emoticons[:get_meaning][emoticon]
   
   if equivalent
     return equivalent
