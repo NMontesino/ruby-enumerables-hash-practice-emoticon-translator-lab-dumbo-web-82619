@@ -7,8 +7,8 @@ def load_library(path)
   emoticons = YAML.load_file(path)
   get_something = 
   {
-    get_meaning: [],
-    get_emoticon: []
+    get_meaning: {},
+    get_emoticon: {}
   }
   
   return get_something
