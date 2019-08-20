@@ -22,6 +22,8 @@ def load_library(path)
   # binding.pry
 end
 
+load_library("./lib/emoticons.yml")
+
 def get_japanese_emoticon
   # code goes here
 end
